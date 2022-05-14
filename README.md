@@ -1,4 +1,4 @@
-# MyStore-Wines
+# MyStore Wines
 ### MyStore is a wine store
 
 ## Technologies:
@@ -7,6 +7,9 @@
 + HTML
 + JSP
 + CSS
+
+## Presentation
+### Link: https://youtu.be/6XngAk0FyPA
 
 ## Home
 ![1](https://user-images.githubusercontent.com/84943777/168451181-9b5342e9-df17-4c66-83e7-4facce500114.PNG)
