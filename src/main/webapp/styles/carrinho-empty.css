@@ -1,0 +1,31 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+header {
+    color: white;
+    background-color: #880254;
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    margin-left: 250px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.div-pai     {
+    margin-left: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.imagem {
+    width: 100%;
+    max-height: 500px;
+}

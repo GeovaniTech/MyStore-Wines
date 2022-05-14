@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@500&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    color: white;
+    background-color: #880254;
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.elementos {
+    width: 100%;
+    max-width: 600px;
+    margin-right: 100px;
+}
+
+.form-pai {
+    display: flex;
+    flex-wrap: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+input {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-decoration: none;
+    outline: 0;
+    border-bottom: solid #880254;
+    padding-bottom: 10px;
+}
+
+.img {
+    width: 100%;
+    max-width: 400px;
+    max-height: 383px;
+}
+
+input[type="submit"] {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #3d3c3b;
+    color: white;
+    border: solid #3d3c3b;
+    padding: 6px;
+}
+
+input[type="submit"]:hover {
+    background-color: #616161;
+    color: white;
+    border: solid #616161;  
+    padding: 6px;
+}
